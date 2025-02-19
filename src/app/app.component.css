@@ -1,0 +1,61 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    
+    
+  }
+  
+  .card {
+    border: 1px solid #ede5e5;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    transition: transform 0.2s;
+    
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card img {
+    height: 500;
+    width: 500;
+    border-radius: 50%;
+    margin: 10px auto;
+    display: block;
+    
+  }
+  
+  .card-body {
+    padding: 15px;
+    
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    
+  }
+  
+  .card-text {
+    margin-bottom: 10px;
+    
+  }
+  
+  .list-group-item {
+    border: none;
+    padding: 8px 15px;
+    
+  }
+  
+  .card-link {
+    color: #0a100d;
+    text-decoration: none;
+  }
+  
+  .card-link:hover {
+    text-decoration: underline;
+  }
+  

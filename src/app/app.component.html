@@ -1,0 +1,99 @@
+<nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
+  <div class="container-fluid">
+      <a class="navbar-brand" href="#" routerLink="">
+          <img src="https://cdn-icons-png.flaticon.com/128/1058/1058347.png" alt="Bootstrap" width="30" height="24"><h1>Marriage</h1>
+      </a>
+     
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+</nav>
+
+<div class="container row justify-content-around" >
+
+  <div class="card col-2" style="width: 20rem;" *ngFor="let pers of DetailsMale">
+    <img src="{{ pers.picture.large }}" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">{{pers.name.title}} {{ pers.name.first }} {{pers.name.last}}</h5>
+      <p class="card-text">My address is <b>{{ pers.location.street.number }} {{ pers.location.street.name }} {{ pers.location.city }} {{ pers.location.country }}</b></p>
+    </div>
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item p-2 ">My gender <b>{{pers.gender}}</b> </li>
+      <li class="list-group-item p-2 ">My age <b>{{pers.dob.age}} Years Old</b></li>
+      <li class="list-group-item p-2 ">My Number  <b>{{pers.phone}}</b> </li>
+      <li class="list-group-item p-2 ">My Email <b>{{pers.email}}</b></li>
+    </ul>
+    <div class="card-body">
+      <a href=""><button type="button" class="btn btn-outline-success">New person</button></a>
+    </div>
+  </div> 
+
+
+  <div class="card col-2" style="width: 20rem;" *ngFor="let pers of DetailsFemale">
+    <img src="{{ pers.picture.large }}" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">{{pers.name.title}} {{ pers.name.first }} {{pers.name.last}}</h5>
+      <p class="card-text">My address is <b>{{ pers.location.street.number }} {{ pers.location.street.name }} {{ pers.location.city }} {{ pers.location.country }}</b></p>
+    </div>
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item p-2">My gender <b>{{pers.gender}}</b> </li>
+      <li class="list-group-item p-2">My age <b>{{pers.dob.age}} Years Old</b></li>
+      <li class="list-group-item p-2">My Number  <b>{{pers.phone}}</b> </li>
+      <li class="list-group-item p-2">My Email <b>{{pers.email}}</b></li>
+    </ul>
+    <div class="card-body">
+      <a href=""><button type="button" class="btn btn-outline-success">New person</button></a>
+    </div>
+  </div>
+
+</div>
+
+<footer class="footer-08">
+  <div class="p-3 mb-2 bg-primary-subtle text-primary-emphasis">
+      <div class="row">
+          <div class="col-md-9 py-5">
+              <div class="row">
+                  <div class="col-md-4 mb-md-0 mb-4">
+                      <h2 class="footer-heading">About us</h2>
+                      <p>
+                        Our site assists people from around the world to find their perfect match. We offer friendly service combined with sophisticated search and messaging facilities that will make your search for true love fun and enjoyable.
+                      </p>
+                  </div>
+                  <div class="col-md-8">
+                      <div class="row justify-content-center">
+                          <div class="col-md-12 col-lg-9">
+                              <div class="row">
+                                  <div class="col-md-4 mb-md-0 mb-4">
+                                      <h2 class="footer-heading">Media</h2>
+                                      <ul class="list-unstyled">
+                                          <li>
+                                            <a href="https://www.facebook.com/wingi.koko" target="_blank"><img src="https://img.icons8.com/?size=100&id=118467&format=png&color=000000" alt="Facebook acounnt" style="width:42px;height:42px;"> </a>
+                                          </li>
+                                          <li>
+                                            <a href="https://www.instagram.com/kirolos_fouad_fawzy" target="_blank"><img src="https://img.icons8.com/?size=100&id=32309&format=png&color=000000" alt="HTML tutorial" style="width:42px;height:42px;"> </a>
+                                          </li>
+                                          <li>
+                                            <a href="https://l.instagram.com/?u=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fkirolos-fouad-914680165%3Ffbclid%3DPAZXh0bgNhZW0CMTEAAaYruR_gktLqTYZdqL7jhigkVlOCrqLVP9z0I0PgGiM9fNxDEFDFXDi7cpo_aem_U84m7vMllTzqubFCToOaUQ&e=AT1AU-bTwkD21hsqYFXg9zwcqiS8DDeEu8CnClaCnRiMAW4k10RUSv91hgk7IdljxhXiq9qQ9If7SFUKC5YtXs8Y8Y29bOH7dCxX-g" target="_blank"><img src="https://img.icons8.com/?size=100&id=8808&format=png&color=000000" alt="linkedin" style="width:42px;height:42px;"> </a>
+                                          </li>
+                                      </ul>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="row mt-md-5">
+                  <div class="col-md-12">
+                      <p class="copyright"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="ion-ios-heart" aria-hidden="true"></i> by <a href="https://www.linkedin.com/in/kirolos-fouad-914680165?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BzvGdZPbnQRG3ZiBe8PapLg%3D%3D" target="_blank">kirolos fouad fawzy</a>
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+                  </div>
+              </div>
+          </div>
+          
+          
+      </div>
+  </div>
+</footer>
