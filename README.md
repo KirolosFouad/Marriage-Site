@@ -7,10 +7,7 @@ Welcome to the Marriage Site project! This project aims to provide a platform fo
 - [Project Overview](#project-overview)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ## Project Overview
 
@@ -30,7 +27,7 @@ The Marriage Site is a platform that connects individuals looking for a life par
 - CSS
 - JavaScript
 - Node.js
-- Express
+- Angular
 
 
 
