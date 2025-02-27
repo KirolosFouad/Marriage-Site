@@ -1,3 +1,6 @@
+# Marriage Site Iamges
+ ![Tux, the Linux mascot](/assets/images/Marriage-img.png)
+
 # Marriage Site Project
 
 Welcome to the Marriage Site project! This project aims to provide a platform for individuals to find a life partner in an easy and safe way.
